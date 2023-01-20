@@ -4,7 +4,7 @@ ruby File.read('.ruby-version').strip
 
 gem 'rake'
 gem 'octokit'
-gem 'activesupport'
+gem 'activesupport', '>= 6.1.7.1'
 gem 'http'
 gem 'rspec'
 gem 'vcr'
