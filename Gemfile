@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby File.read('.ruby-version').strip
 
 gem 'rake'
-gem 'octokit'
+gem 'octokit', '>= 4.23.0'
 gem 'activesupport'
 gem 'http'
 gem 'rspec'
